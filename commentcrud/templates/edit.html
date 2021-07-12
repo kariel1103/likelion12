@@ -1,0 +1,7 @@
+<h1>수정</h1>
+<form method="POST">
+    {% csrf_token %}
+        {{ form.as_p }}
+    <br>
+    <input type="submit" value="수정하기" name="edit">
+</form>
